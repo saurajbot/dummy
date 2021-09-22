@@ -48,23 +48,13 @@ jobs:
               TG_API="${{ secrets.TG_BOT_TOKEN }}"
               TG_CHAT_ID="@saurajdumps"
               GITLAB_HOSTNAME="gitlab.com" ## use 'gitlab.com' by default, or use your own github instance, or any public one
-              echo "$GITHUB_ORG_NAME" > .github_orgname
-              echo "$GITLAB_HOSTNAME" > .gitlab_instance
-              echo "$GIT_GITHUB_TOKEN" > .github_token
-              echo "$GITLAB_ORG_NAME" > .gitlab_orgname
-              echo "$GITLAB_USERNAME" > .gitlab_username
-              echo "$GITHUB_USERNAME" > .github_username
-              echo "$GITLAB_TOKEN" > .gitlab_token
-              echo "$TG_BOT_TOKEN" > .tg_token
-              echo "$TG_CHAT_ID" > .tg_chat
-              echo "1297553238" > .tg_chat_id
-              #Do Not Edit This
               git config --global user.name "$GIT_CONFIG_USERNAME"
               git config --global user.email "$GIT_CONFIG_EMAIL"
-              git clone "$ROM_URL" dump_rom
-              ./tools/dummy_dt.sh dump_rom
-              
-            
+              export GIT_TOKEN=$(GIT_TOKEN)
+              export TG_API=$(TG_API)
+              git clone "$ROM_URL" source
+              ./tools/dummy_dt.sh source
+                         
 ##########
 env:
   ROM_URL: https://gitlab.com/sauraj-dumps/redmi_biloba_dump_16416.git
