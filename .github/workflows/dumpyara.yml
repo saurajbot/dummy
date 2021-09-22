@@ -44,4 +44,4 @@ jobs:
                          
 ##########
 env:
-  ROM_URL: https://gitlab.com/sauraj-dumps/_cph1861_dump.git
+  ROM_URL: https://github.com/Mediatek-leaks/realme_rmx2185_dump
