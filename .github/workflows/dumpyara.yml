@@ -37,22 +37,9 @@ jobs:
        - name: Setup config envs And Begin Dump
          working-directory: android_tools       
          run: |
-              GITHUB_ORG_NAME="something6969"
-              GITLAB_ORG_NAME="sauraj-dumps"
-              GITLAB_USERNAME="ksauraj"
-              GITHUB_USERNAME="saurajbot"
-              GIT_CONFIG_USERNAME="saurajbot"
-              GIT_CONFIG_EMAIL="rommirrorer@gmail.com"
-              GIT_TOKEN="${{ secrets.GIT_GITHUB_TOKEN }}"
-              GITLAB_TOKEN="${{ secrets.GITLAB_TOKEN }}"
-              TG_API="${{ secrets.TG_BOT_TOKEN }}"
-              TG_CHAT_ID="@saurajdumps"
-              GITLAB_HOSTNAME="gitlab.com" ## use 'gitlab.com' by default, or use your own github instance, or any public one
-              git config --global user.name "$GIT_CONFIG_USERNAME"
-              git config --global user.email "$GIT_CONFIG_EMAIL"
-              export GIT_TOKEN=$(GIT_TOKEN)
-              export TG_API=$(TG_API)
               git clone "$ROM_URL" source
+              export GIT_TOKEN=${{ secrets.GIT_GITHUB_TOKEN }}
+              export TG_API=${{ secrets.TG_BOT_TOKEN }}
               ./tools/dummy_dt.sh source
                          
 ##########
