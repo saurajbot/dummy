@@ -44,4 +44,4 @@ jobs:
                          
 ##########
 env:
-  ROM_URL: https://dtox94jqmvr57.cloudfront.net/T1/Teracube_S1_07_20200707110602.zip
+  ROM_URL: https://samadrita03.samadritaindex.workers.dev/0:/RMX2121PU_11_OTA_10300270_all_J3fsF9l1Qrs3.ozip
