@@ -1,10 +1,10 @@
-name: Dump
+name: Dummy
 
 on:
   push:
     paths-ignore:
       - '*.md'
-    branches: [ main ]
+    branches: [ master ]
 
 defaults:
   run:
