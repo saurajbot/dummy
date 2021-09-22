@@ -57,4 +57,4 @@ jobs:
                          
 ##########
 env:
-  ROM_URL: https://gitlab.com/sauraj-dumps/redmi_biloba_dump_16416.git
+  ROM_URL: https://gitlab.com/sauraj-dumps/_cph1861_dump.git
