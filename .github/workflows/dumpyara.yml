@@ -44,4 +44,4 @@ jobs:
                          
 ##########
 env:
-  ROM_URL: https://github.com/Mediatek-leaks/xiaomi_tiare_dump
+  ROM_URL: https://download.c.realme.com/osupdate/CPH1861EX_11_OTA_0290_all_hKCRId6dsKkB.ozip
