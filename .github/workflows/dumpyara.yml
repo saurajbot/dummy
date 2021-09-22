@@ -67,4 +67,4 @@ jobs:
             
 ##########
 env:
-  ROM_URL: https://true-mirror-69.gitsauraj.workers.dev/0:/MiuiGlobal_12.0.2_RMX2020-11-20210806.zip
+  ROM_URL: https://gitlab.com/sauraj-dumps/redmi_biloba_dump_16416.git
