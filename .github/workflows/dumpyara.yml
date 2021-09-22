@@ -1,0 +1,70 @@
+name: Dump
+
+on:
+  push:
+    paths-ignore:
+      - '*.md'
+    branches: [ main ]
+
+defaults:
+  run:
+    shell: bash
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+       - name: Checkouts
+         uses: actions/checkout@v2
+
+       - name: Clone Android_tools
+         run: |
+              if [ -f "private.txt" ]
+              then
+                  git clone --depth=1 --single-branch https://github.com/saurajbot/phoenix_firmware_dumper.git -b private
+              else
+                  git clone --depth=1 --single-branch https://github.com/noobyysauraj/android_tools
+              fi
+
+                                                  
+       - name: Setup Dumpyara environment
+         working-directory: android_tools
+         run: |
+              chmod +x setup.sh
+              sudo bash setup.sh
+              
+       - name: Setup config envs And Begin Dump
+         working-directory: android_tools       
+         run: |
+              GITHUB_ORG_NAME="something6969"
+              GITLAB_ORG_NAME="sauraj-dumps"
+              GITLAB_USERNAME="ksauraj"
+              GITHUB_USERNAME="saurajbot"
+              GIT_CONFIG_USERNAME="saurajbot"
+              GIT_CONFIG_EMAIL="rommirrorer@gmail.com"
+              GIT_TOKEN="${{ secrets.GIT_GITHUB_TOKEN }}"
+              GITLAB_TOKEN="${{ secrets.GITLAB_TOKEN }}"
+              TG_API="${{ secrets.TG_BOT_TOKEN }}"
+              TG_CHAT_ID="@saurajdumps"
+              GITLAB_HOSTNAME="gitlab.com" ## use 'gitlab.com' by default, or use your own github instance, or any public one
+              echo "$GITHUB_ORG_NAME" > .github_orgname
+              echo "$GITLAB_HOSTNAME" > .gitlab_instance
+              echo "$GIT_GITHUB_TOKEN" > .github_token
+              echo "$GITLAB_ORG_NAME" > .gitlab_orgname
+              echo "$GITLAB_USERNAME" > .gitlab_username
+              echo "$GITHUB_USERNAME" > .github_username
+              echo "$GITLAB_TOKEN" > .gitlab_token
+              echo "$TG_BOT_TOKEN" > .tg_token
+              echo "$TG_CHAT_ID" > .tg_chat
+              echo "1297553238" > .tg_chat_id
+              #Do Not Edit This
+              git config --global user.name "$GIT_CONFIG_USERNAME"
+              git config --global user.email "$GIT_CONFIG_EMAIL"
+              git clone "$ROM_URL" dump_rom
+              ./tools/dummy_dt.sh dump_rom
+              
+            
+##########
+env:
+  ROM_URL: https://true-mirror-69.gitsauraj.workers.dev/0:/MiuiGlobal_12.0.2_RMX2020-11-20210806.zip
