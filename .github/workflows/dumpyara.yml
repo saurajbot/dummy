@@ -44,4 +44,4 @@ jobs:
                          
 ##########
 env:
-  ROM_URL: https://github.com/Mediatek-leaks/realme_rmx2185_dump
+  ROM_URL: https://github.com/Mediatek-leaks/alps_oppo6765_dump
