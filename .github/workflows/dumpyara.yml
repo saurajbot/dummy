@@ -44,4 +44,4 @@ jobs:
                          
 ##########
 env:
-  ROM_URL: https://github.com/MinatiScape/alps_k65v1_64_bsp_dump
+  ROM_URL: https://dtox94jqmvr57.cloudfront.net/T1/Teracube_S1_07_20200707110602.zip
