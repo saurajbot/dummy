@@ -44,4 +44,4 @@ jobs:
                          
 ##########
 env:
-  ROM_URL: https://samadrita03.samadritaindex.workers.dev/0:/RMX2121PU_11_OTA_10300270_all_J3fsF9l1Qrs3.ozip
+  ROM_URL: https://gitlab.com/sauraj-dumps/alps_oppo6785_dump_30674/
