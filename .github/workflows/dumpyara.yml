@@ -44,4 +44,4 @@ jobs:
                          
 ##########
 env:
-  ROM_URL: https://gitlab.com/sauraj-dumps/realme_rmx3171_dump_7471/-/tree/RMX3171_11.A.21_0210_202108271743/
+  ROM_URL: https://gitlab.com/sauraj-dumps/alps_oppo6765_dump_13294
