@@ -44,4 +44,4 @@ jobs:
                          
 ##########
 env:
-  ROM_URL: https://gitlab.com/sauraj-dumps/alps_oppo6785_dump_2266
+  ROM_URL: https://gitlab.com/sauraj-dumps/alps_oppo6765_dump_18097
