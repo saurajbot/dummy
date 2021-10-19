@@ -44,4 +44,4 @@ jobs:
                          
 ##########
 env:
-  ROM_URL: https://ota-manual-in.allawnofs.com/ota/21/07/27/987aed77-5aad-40d5-9a64-461096f04e85.ozip
+  ROM_URL: https://gitlab.com/sauraj-dumps/teracube_teracube_one_dump_27951/-/tree/full_v7101o-user-9-PPR1.180610.011-20200610-release-keys/
