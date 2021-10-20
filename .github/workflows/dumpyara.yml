@@ -44,4 +44,4 @@ jobs:
                          
 ##########
 env:
-  ROM_URL: https://gitlab.com/sauraj-dumps/oppo_rmx1801_dump_19305
+  ROM_URL: https://gitlab.com/sauraj-dumps/xiaomi_olivelite_dump_8593/
