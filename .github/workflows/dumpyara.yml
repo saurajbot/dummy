@@ -44,4 +44,4 @@ jobs:
                          
 ##########
 env:
-  ROM_URL: https://gitlab.com/sauraj-dumps/teracube_teracube_one_dump_27951/-/tree/full_v7101o-user-9-PPR1.180610.011-20200610-release-keys/
+  ROM_URL: https://download.c.realme.com/osupdate/RMX1801EX_11_OTA_2120_all_4q5L63MjpxAp.ozip
