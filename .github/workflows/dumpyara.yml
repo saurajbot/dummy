@@ -44,4 +44,4 @@ jobs:
                          
 ##########
 env:
-  ROM_URL: https://dumps.tadiphone.dev/dumps/lge/phoenix_sprout/tree/phoenix_lao_com-user-11-RKQ1.201123.002-211181009fda7-release-keys/
+  ROM_URL: https://dumps.tadiphone.dev/dumps/lge/phoenix_sprout.git
