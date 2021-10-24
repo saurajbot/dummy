@@ -44,4 +44,4 @@ jobs:
                          
 ##########
 env:
-  ROM_URL: https://dumps.tadiphone.dev/dumps/lge/phoenix_sprout.git
+  ROM_URL: https://gitlab.com/sauraj-dumps/micromax_q345_dump_20487.git
