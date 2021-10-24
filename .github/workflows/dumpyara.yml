@@ -44,4 +44,4 @@ jobs:
                          
 ##########
 env:
-  ROM_URL: https://gitlab.com/sauraj-dumps/xiaomi_tiare_dump_19484
+  ROM_URL: https://gitlab.com/sauraj-dumps/10or_g_dump_28622.git
