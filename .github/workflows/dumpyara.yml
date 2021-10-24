@@ -44,4 +44,4 @@ jobs:
                          
 ##########
 env:
-  ROM_URL: https://gitlab.com/sauraj-dumps/micromax_q345_dump_20487.git
+  ROM_URL: https://gitlab.com/sauraj-dumps/xiaomi_tiare_dump_19484
