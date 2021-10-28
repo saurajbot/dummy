@@ -44,4 +44,4 @@ jobs:
                          
 ##########
 env:
-  ROM_URL: https://gitlab.com/sauraj-dumps/10or_g_dump_28622.git
+  ROM_URL: https://gitlab.com/sauraj-dumps/_rmx1805_dump_28537.git
