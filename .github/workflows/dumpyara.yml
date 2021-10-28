@@ -44,4 +44,4 @@ jobs:
                          
 ##########
 env:
-  ROM_URL: https://gitlab.com/sauraj-dumps/_rmx1805_dump_28537.git
+  ROM_URL: https://gitlab.com/sauraj-dumps/xiaomi_daisy_sprout_dump_24256
