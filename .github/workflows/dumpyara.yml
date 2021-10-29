@@ -44,4 +44,4 @@ jobs:
                          
 ##########
 env:
-  ROM_URL: https://gitlab.com/sauraj-dumps/xiaomi_daisy_sprout_dump_24256
+  ROM_URL: https://dumps.tadiphone.dev/dumps/nokia/pan_sprout.git
