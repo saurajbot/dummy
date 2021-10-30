@@ -44,4 +44,4 @@ jobs:
                          
 ##########
 env:
-  ROM_URL: https://dumps.tadiphone.dev/dumps/nokia/pan_sprout.git
+  ROM_URL: https://gitlab.com/sauraj-dumps/google_taimen_dump_2462.git
