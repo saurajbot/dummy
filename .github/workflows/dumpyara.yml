@@ -44,4 +44,4 @@ jobs:
                          
 ##########
 env:
-  ROM_URL: https://gitlab.com/sauraj-dumps/nokia_pan_sprout_dump_30226.git
+  ROM_URL: https://gitlab.com/sauraj-dumps/alps_oppo6785_dump_9298
