@@ -44,4 +44,4 @@ jobs:
                          
 ##########
 env:
-  ROM_URL: https://dumps.tadiphone.dev/dumps/google/redfin.git
+  ROM_URL: https://dumps.tadiphone.dev/dumps/nokia/ddv_sprout.git
