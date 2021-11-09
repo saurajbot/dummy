@@ -44,4 +44,4 @@ jobs:
                          
 ##########
 env:
-  ROM_URL: https://gitlab.com/sauraj-dumps/alps_oppo6785_dump_9298
+  ROM_URL: https://dumps.tadiphone.dev/dumps/google/redfin.git
