@@ -44,4 +44,4 @@ jobs:
                          
 ##########
 env:
-  ROM_URL: https://dumps.tadiphone.dev/dumps/nokia/ddv_sprout.git
+  ROM_URL: https://gitlab.com/sauraj-dumps/redmi_ares_dump_3351/-/tree/missi-user-12-SP1A.210812.016-21.11.8-release-keys/
