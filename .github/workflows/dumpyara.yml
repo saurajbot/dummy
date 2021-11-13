@@ -44,4 +44,4 @@ jobs:
                          
 ##########
 env:
-  ROM_URL: https://github.com/Dumpyard-Sarthak/RMX2020-C.06
+  ROM_URL: https://github.com/Dumpyard-Sarthak/alps_oppo6769_dump-C04-5-stable
