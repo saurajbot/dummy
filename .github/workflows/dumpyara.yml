@@ -44,4 +44,4 @@ jobs:
                          
 ##########
 env:
-  ROM_URL: https://gitlab.com/sauraj-dumps/alps_oppo6768_dump_12088
+  ROM_URL: https://github.com/Dumpyard-Sarthak/RMX2020-C.06
