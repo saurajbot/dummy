@@ -44,4 +44,4 @@ jobs:
                          
 ##########
 env:
-  ROM_URL: https://gitlab.com/sauraj-dumps/alps_k65v1_64_bsp_dump_22475
+  ROM_URL: https://gitlab.com/sauraj-dumps/alps_k65v1_64_bsp_dump_15593/
