@@ -44,4 +44,4 @@ jobs:
                          
 ##########
 env:
-  ROM_URL: https://github.com/Dumpyard-Sarthak/RMX2020-C.06
+  ROM_URL: https://gitlab.com/sauraj-dumps/redmi_rosemary_dump_16183
