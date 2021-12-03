@@ -44,4 +44,4 @@ jobs:
                          
 ##########
 env:
-  ROM_URL: https://gitlab.com/sauraj-dumps/alps_oppo6769_dump_2581
+  ROM_URL: https://github.com/Dumpyard-Sarthak/samsung_a32_dump
