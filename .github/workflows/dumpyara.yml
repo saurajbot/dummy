@@ -44,4 +44,4 @@ jobs:
                          
 ##########
 env:
-  ROM_URL: https://gitlab.com/sauraj-dumps/xiaomi_lavender_dump_24141.git
+  ROM_URL: https://gitlab.com/sauraj-dumps/10or_e_dump_9496.git
