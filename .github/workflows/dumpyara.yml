@@ -44,4 +44,4 @@ jobs:
                          
 ##########
 env:
-  ROM_URL: https://gitlab.com/sauraj-dumps/10or_e_dump_9496.git
+  ROM_URL: https://gitlab.com/sauraj-dumps/oppo_r2p_dump_15802.git
