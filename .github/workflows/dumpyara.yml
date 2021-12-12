@@ -44,4 +44,4 @@ jobs:
                          
 ##########
 env:
-  ROM_URL: https://gitlab.com/TheMalachite/samsung_o5prolte_dump.git
+  ROM_URL: https://gitlab.com/sauraj-dumps/alps_oppo6769_dump_16170
