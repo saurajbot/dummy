@@ -44,4 +44,4 @@ jobs:
                          
 ##########
 env:
-  ROM_URL: https://gitlab.com/sauraj-dumps/alps_oppo6769_dump_16170
+  ROM_URL: https://gitlab.com/sauraj-dumps/nokia_qks_sprout_dump_3648
