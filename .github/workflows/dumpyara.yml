@@ -44,4 +44,4 @@ jobs:
                          
 ##########
 env:
-  ROM_URL: https://gitlab.com/sauraj-dumps/nokia_qks_sprout_dump_3648
+  ROM_URL: https://gitlab.com/sauraj-dumps/xiaomi_cactus_dump_32726/-/tree/cactus-user-9-PPR1.180610.011-V12.0.2.0.PCBCNXM-release-keys/
