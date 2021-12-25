@@ -44,4 +44,4 @@ jobs:
                          
 ##########
 env:
-  ROM_URL: https://gitlab.com/sauraj-dumps/xiaomi_cactus_dump_32726/-/tree/cactus-user-9-PPR1.180610.011-V12.0.2.0.PCBCNXM-release-keys/
+  ROM_URL: https://gitlab.com/sauraj-dumps/alps_oppo6769_dump_26501
