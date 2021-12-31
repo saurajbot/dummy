@@ -44,4 +44,4 @@ jobs:
                          
 ##########
 env:
-  ROM_URL: https://dumps.tadiphone.dev/dumps/tecno/tecno-cg6
+  ROM_URL: https://github.com/Dumpyard-Sarthak/RMX2020-C.06
