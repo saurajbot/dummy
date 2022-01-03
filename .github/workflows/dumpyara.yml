@@ -44,4 +44,4 @@ jobs:
                          
 ##########
 env:
-  ROM_URL: https://dumps.tadiphone.dev/dumps/redmi/ares
+  ROM_URL: https://github.com/Mediatek-leaks/realme_rmx1831_dump.git
