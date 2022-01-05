@@ -44,4 +44,4 @@ jobs:
                          
 ##########
 env:
-  ROM_URL: https://gitlab.com/kumaryadav-prog1/rui2.0-dump-rmx1851
+  ROM_URL: https://github.com/MinatiScape/realme_rmx1831_dump.git
