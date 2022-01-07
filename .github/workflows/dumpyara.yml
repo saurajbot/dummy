@@ -44,4 +44,4 @@ jobs:
                          
 ##########
 env:
-  ROM_URL: https://gitlab.com/kumaryadav-prog1/rui2.0-dump-rmx1851
+  ROM_URL: https://gitlab.com/sauraj-dumps/alps_oppo6833_dump_30875.git
