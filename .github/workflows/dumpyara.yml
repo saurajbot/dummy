@@ -44,4 +44,4 @@ jobs:
                          
 ##########
 env:
-  ROM_URL: https://dumps.tadiphone.dev/dumps/nokia/dpl_sprout.git
+  ROM_URL: https://dumps.tadiphone.dev/dumps/motorola/rav.git
