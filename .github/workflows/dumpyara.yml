@@ -44,4 +44,4 @@ jobs:
                          
 ##########
 env:
-  ROM_URL: https://gitlab.com/sauraj-dumps/alps_oppo6833_dump_30875.git
+  ROM_URL: https://dumps.tadiphone.dev/dumps/nokia/dpl_sprout.git
