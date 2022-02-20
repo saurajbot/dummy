@@ -44,4 +44,4 @@ jobs:
                          
 ##########
 env:
-  ROM_URL: https://gitlab.com/sauraj-dumps/xiaomi_tiare_dump_7414/-/tree/tiare-user-8.1.0-OPM1.171019.026-V10.2.19.0.OCLINXM-release-keys/
+  ROM_URL: https://gitlab.com/sauraj-dumps/realme_rmx1831_dump_16088.git
