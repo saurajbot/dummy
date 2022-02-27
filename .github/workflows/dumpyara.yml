@@ -44,4 +44,4 @@ jobs:
                          
 ##########
 env:
-  ROM_URL: https://gitlab.com/sauraj-dumps/alps_oppo6769_dump_24647/-/tree/sys_oplus_mssi_64_cn-user-11-RP1A.200720.011-1623809323039-release-keys/
+  ROM_URL: https://gitlab.com/sarthakroy2002/c25-c01-rmui-3
