@@ -44,4 +44,4 @@ jobs:
                          
 ##########
 env:
-  ROM_URL: https://gitlab.com/sarthakroy2002/c25-c01-rmui-3
+  ROM_URL: https://gitlab.com/Android-Dumps/redmi/gauguin/-/tree/V13.0.3.0.SJSCNXM/
