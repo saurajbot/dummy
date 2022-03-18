@@ -44,4 +44,4 @@ jobs:
                          
 ##########
 env:
-  ROM_URL: https://gitlab.com/Android-Dumps/redmi/gauguin
+  ROM_URL: https://dumps.tadiphone.dev/dumps/xiaomi/mihal
