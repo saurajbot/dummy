@@ -44,4 +44,4 @@ jobs:
                          
 ##########
 env:
-  ROM_URL: https://oxygenos.oneplus.net/OnePlus7TOxygen_14.O.32_OTA_0320_all_2202112234_58c779fd21784df3.zip
+  ROM_URL: https://gitlab.com/sarthakroy2002/realme-9-pro-plus-rui3-c08
