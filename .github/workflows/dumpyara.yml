@@ -44,4 +44,4 @@ jobs:
                          
 ##########
 env:
-  ROM_URL: https://gitlab.com/sarthakroy2002/realme-8-c04-rui3
+  ROM_URL: https://github.com/Dumpyard-Sarthak/oplus_ossi_dump5402
