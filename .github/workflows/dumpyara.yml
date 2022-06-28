@@ -44,4 +44,4 @@ jobs:
                          
 ##########
 env:
-  ROM_URL: https://github.com/Dumpyard-Sarthak/oplus_ossi_dump5402
+  ROM_URL: https://github.com/Dumpyard-Sarthak/qti_kona_dump2739
